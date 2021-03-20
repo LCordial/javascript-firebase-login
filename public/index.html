@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>
+
+        <script>
+            // Replace with your firebase config
+        firebase.initializeApp(firebaseConfig);
+        </script>
+    </head>
+
+    <body>
+        <div">
+
+                <div id="loginPage">
+                    <div>
+                        <div id="inputPage">
+                            <input type="email" placeholder="Email" id="emailInput">
+                            <input type="password" placeholder="Password" id="passwordInput">
+                            <input type="text" placeholder="Username" id="usernameInput">
+                        </div>
+                        <div id="buttonPage"> 
+                            <button id="signInBtn">Sign In</button>
+                            <button id="signUpBtn">Sign up</button>
+                        </div>
+                        <button id="signOutBtn">Log Out</button>  
+                    </div>
+                </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
