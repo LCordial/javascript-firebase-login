@@ -1,0 +1,7 @@
+  
+/node_modules
+/.firebase
+
+firebase-debug.log
+
+# Add more if needed
