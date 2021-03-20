@@ -2,6 +2,8 @@
 
 > A simple web firebase-login system.
 
+This login system uses firebase authentication (email and password), firebase firestore and hosting. Passwords are not sent directly to firestore and are handled by google. Each user generates a UID, allowing the application to hold up to billions of users. Currently, there is no other authentication options.
+
 ## Use
 
 ```
